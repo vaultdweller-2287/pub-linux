@@ -9,7 +9,9 @@ flatpak install flathub io.github.vikdevelop.SaveDesktop
 
 sudo apt install git
 
-sudo rm -rf ~/.config/xfce4/
+sudo rm -rf ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+
+sudo mv ~/Downloads/xfce4-panel.xml ~/.config/xfce4/xfonf/xfce-perchannel-xml/
 
 git clone https://github.com/vaultdweller-2287/pub-linux/tree/main/Pub-Desktop-Environment/xfce4 ~/.config/
 

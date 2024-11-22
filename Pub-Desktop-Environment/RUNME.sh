@@ -1,6 +1,12 @@
 #!/bin/bash
 echo "===PUB COMMON ENVIRONMENT INSTALLATION==="
 
+cd /home/
+ls
+echo "Please type in which folder is your home folder (case sensitive)"
+read name
+echo "
+
 #Detects if script are not running as root... 
 if [ "$UID" != "0" ]; then
    #$0 is the script itself (or the command used to call it)...
@@ -23,9 +29,9 @@ flatpak install flathub io.github.vikdevelop.SaveDesktop
 
 apt install git
 
-rm -rf ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+rm -rf /home/$name/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
 
-mv ~/Downloads/xfce4-panel.xml ~/.config/xfce4/xfonf/xfce-perchannel-xml/
+mv /home/$name/Downloads/xfce4-panel.xml ~/.config/xfce4/xfonf/xfce-perchannel-xml/
 
 echo "===INSTALLED UTILITES==="
 echo "===RUNNING SAVEDESKTOP==="

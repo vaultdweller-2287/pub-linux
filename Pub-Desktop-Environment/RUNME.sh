@@ -12,7 +12,7 @@ apt install git
 
 rm -rf /home/newuser/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
 
-mv /home/newuser/Downloads/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/
+mv /home/newuser/Downloads/xfce4-panel.xml /home/newuser/.config/xfce4/xfconf/xfce-perchannel-xml/
 
 echo "===INSTALLED UTILITES==="
 echo "===RUNNING SAVEDESKTOP==="

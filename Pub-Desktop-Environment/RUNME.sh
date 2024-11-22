@@ -5,7 +5,6 @@ cd /home/
 ls
 echo "Please type in which folder is your home folder (case sensitive)"
 read name
-echo "
 
 #Detects if script are not running as root... 
 if [ "$UID" != "0" ]; then

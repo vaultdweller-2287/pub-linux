@@ -1,10 +1,6 @@
 #!/bin/bash
 echo "===PUB COMMON ENVIRONMENT INSTALLATION==="
-
-cd /home/
-ls
-echo "Please type in which folder is your home folder (case sensitive)"
-read name
+echo "===Please make sure you modified this script to have the home directory as your own username==="
 
 apt install flatpak
 
@@ -14,9 +10,9 @@ flatpak install flathub io.github.vikdevelop.SaveDesktop
 
 apt install git
 
-rm -rf /home/$name/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+rm -rf /home/newuser/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
 
-mv /home/$name/Downloads/xfce4-panel.xml ~/.config/xfce4/xfonf/xfce-perchannel-xml/
+mv /home/newuser/Downloads/xfce4-panel.xml ~/.config/xfce4/xfonf/xfce-perchannel-xml/
 
 echo "===INSTALLED UTILITES==="
 echo "===RUNNING SAVEDESKTOP==="

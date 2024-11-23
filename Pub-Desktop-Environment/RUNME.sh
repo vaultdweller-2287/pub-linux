@@ -8,11 +8,9 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 flatpak install flathub io.github.vikdevelop.SaveDesktop
 
-apt install git
+apt install xfce4-panel-profiles
 
-rm -rf /home/newuser/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
-
-mv /home/newuser/Downloads/xfce4-panel.xml /home/newuser/.config/xfce4/xfconf/xfce-perchannel-xml/
+xfce4-panel-profiles load /home/newuser/Downloads/PubLayout.tar.bz2
 
 echo "===INSTALLED UTILITES==="
 echo "===RUNNING SAVEDESKTOP==="

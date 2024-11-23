@@ -8,7 +8,7 @@ These links go to a google drive page with our ISOs.
 
 ## Latest Release
 
-1.0-Prerelease1: https://drive.google.com/file/d/16-l-8LfIq4SmU64DGZc5w6ZEtYe5Qbv0/view?usp=drive_link
+1.0-Prerelease1: https://drive.google.com/file/d/16-l-8LfIq4SmU64DGZc5w6ZEtYe5Qbv0/view?usp=drive_link (soon will be replaced)
 
 ## Old Releases
 

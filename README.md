@@ -6,10 +6,10 @@ Over the years, Ubuntu and it's parent company Canonical have made some... quest
 
 These links go to a google drive page with our ISOs.
 
-## Latest Release
-
-1.0-Prerelease1: https://drive.google.com/file/d/16-l-8LfIq4SmU64DGZc5w6ZEtYe5Qbv0/view?usp=drive_link (soon will be replaced)
-
-## Old Releases
+## Stable Release
 
 Well we did just start, maybe wait a month before you check this again ;)
+
+## Developer Release
+
+1.0-Prerelease1: https://drive.google.com/file/d/16-l-8LfIq4SmU64DGZc5w6ZEtYe5Qbv0/view?usp=drive_link (soon will be replaced)

@@ -1,0 +1,34 @@
+import os
+
+print('Github:https://github.com/vaultdweller-2287/pub-linux')
+print('==Welcome to Scribe text!==')
+print(' ____ ____ ____ ____ ____ ____ ')
+print('||s |||c |||r |||i |||b |||e ||')
+print('||__|||__|||__|||__|||__|||__||')
+print('|____|____|____|____|/__\|/__\|')
+print('||t |||e |||x |||t ||')
+print('||__|||__|||__|||__||')
+print('|____|____|____|____|')
+print('Version 1.0')
+print('')
+print('(to end a document, simply make an empty line.)')
+print("Begin typing away!")
+
+lines = []
+while True:
+    line = input()
+    if line:
+        lines.append(line)
+    else:
+        break
+text = '\n'.join(lines)
+
+print('Name your file:')
+filename = input('')
+directory = '~/Downloads'
+
+file = f'{filename}.txt'
+fullpath = f'{directory}/{file}'
+
+with open({fullpath}, "w") as file:
+    file.write({text})

@@ -6,11 +6,11 @@ def print_colored(text, color, end='\n'):
     sys.stdout.write(colors.get(color, '') + text + reset + end)
 
 # Variables require manual changing since they do not "fetch" system information.
-# GUI refers to your desktop environment (DE). Example: "KDE Plasma 5"
-# WM refers to your window manager (WM). Example: "i3wm"
+# GUI refers to your desktop environment (DE). Example: "MATE 1.26"
+# WM refers to your window manager (WM). Example: "metacity"
 # Krnl (short for kernel) refers to the operating system's kernel. Example: "Linux Kernel 6.6 (LTS)"
-# Ver refers to your operating system (or distro's) version number. Example: "12.7 Bookworm"
-# OSN (Operating System Name) refers to the name of your operating system (or distro). Example: "Debian GNU/Linux"
+# Ver refers to your operating system (or distro's) version number. Example: "1.0-Prerelease"
+# OSN (Operating System Name) refers to the name of your operating system (or distro). Example: "Pub Linux"
 gui = 'configuration required'
 wm = 'configuration required'
 krnl = 'configuration required'
